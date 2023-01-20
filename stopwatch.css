@@ -1,0 +1,53 @@
+body{
+    background-image: url("sand watch.jpg.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.stopwatch{
+    color: yellow;
+    text-align: center;
+    padding: 50px;
+    letter-spacing: 3px;
+    border-radius:25px;
+    font-size: 30px;
+    
+}
+.stopwatch:hover{
+    background-color: rgb(92, 190, 246);
+    background-image: url("watch new.jpg");
+    background-size: cover;
+}
+button{
+    border-radius: 50%;
+    background-color: rgb(6, 188, 249);
+    color:rgb(252, 1, 1);
+    border: 5px solid black;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-image: url("watch122.jpg.jpeg");
+    background-size: cover;
+}
+button:hover{ 
+    background-color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+h1,p{
+    text-shadow: 5px 6px 7px;
+}
+p{
+    color:rgb(245, 241, 241);
+    font-size: 40px;
+}
+h1{
+    padding-top: 60px;
+    text-shadow: 5px 6px 7px white;
+}
